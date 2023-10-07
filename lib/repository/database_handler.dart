@@ -9,7 +9,7 @@ class DatabaseHandler {
   static Database? _database;
   final todo = 'todo';
   Map table = {
-    'tableName': 'note_table',
+    'tableName': 'todo',
     'colId': 'id',
     'colTitle': 'title',
     'colDescription': 'description',
